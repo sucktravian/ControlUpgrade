@@ -1,0 +1,51 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>Slogo.ico</ApplicationIcon>
+
+	<!-- Assembly metadata -->
+	<AssemblyTitle>Windows Upgrade Control</AssemblyTitle>
+	<Description>Control tool for locking or unlocking Windows updates</Description>
+	<Company>Sucktravian</Company>
+	<Product>ControlUpgrade</Product>
+	<Copyright>© 2025 Sucktravian. All rights reserved.</Copyright>
+	<AssemblyVersion>1.0.0.0</AssemblyVersion>
+	<FileVersion>1.0.0.0</FileVersion>
+	<NeutralLanguage>en-US</NeutralLanguage>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Slogo.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Toolkit.Uwp.Notifications" Version="7.1.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Slogo.ico">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

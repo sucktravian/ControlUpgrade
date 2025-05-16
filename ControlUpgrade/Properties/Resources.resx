@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, ...</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, ...</value>
+	</resheader>
+
+	<data name="Title" xml:space="preserve"><value>Windows Upgrade Control</value></data>
+	<data name="LockButton" xml:space="preserve"><value>🔒 Lock Upgrade</value></data>
+	<data name="UnlockButton" xml:space="preserve"><value>🔓 Unlock Upgrade</value></data>
+	<data name="UpgradeLockedMessage" xml:space="preserve"><value>Upgrade locked to {0}.</value></data>
+	<data name="UpgradeUnlockedMessage" xml:space="preserve"><value>Upgrade unlocked.</value></data>
+	<data name="ErrorLocking" xml:space="preserve"><value>Error locking upgrade: {0}</value></data>
+	<data name="ErrorUnlocking" xml:space="preserve"><value>Error unlocking upgrade: {0}</value></data>
+	<data name="AdminWarning" xml:space="preserve"><value>This application must be run as Administrator.</value></data>
+	<data name="AdminWarningTitle" xml:space="preserve"><value>Insufficient Privileges</value></data>
+	<data name="ErrorWinVersion" xml:space="preserve"><value>Unable to determine the current Windows version.</value></data>
+	<data name="SuccessTitle" xml:space="preserve"><value>Success</value></data>
+	<data name="ErrorTitle" xml:space="preserve"><value>Error</value></data>
+	<data name="StatusLocked" xml:space="preserve"><value>Upgrade is currently locked.</value></data>
+	<data name="StatusUnlocked" xml:space="preserve"><value>Upgrade is currently unlocked.</value></data>
+	<data name="VersionLabel" xml:space="preserve"><value>Windows Version:</value></data>
+	<data name="UpgradeGroupHeader" xml:space="preserve"><value>Upgrade Control</value></data>
+	<data name="DarkModeToggle" xml:space="preserve"><value>Dark Mode</value></data>
+	<data name="RegistryTabHeader" xml:space="preserve"><value>Registry Info</value></data>
+	<data name="RegistryKeyLabel" xml:space="preserve"><value>Registry Key Values:</value></data>
+	<data name="OpenRegistryEditorButton" xml:space="preserve"><value>📂 Open in Registry Editor</value></data>
+	<data name="RegistryKeyNotFound" xml:space="preserve"><value>Registry key not found.</value></data>
+	<data name="NoRegistryValues" xml:space="preserve"><value>No values found in registry key.</value></data>
+	<data name="ErrorReadingRegistry" xml:space="preserve"><value>Error reading registry: {0}</value></data>
+</root>
