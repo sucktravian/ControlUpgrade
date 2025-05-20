@@ -4,6 +4,9 @@
 
 # Windows Upgrade Control
 
+
+[⬇️ Download Latest Release](https://github.com/sucktravian/ControlUpgrade/releases/latest)
+
 A simple WPF app I built to make it easier to block or unblock Windows upgrades using registry keys. It comes with a clean interface, dark mode toggle, and some basic localization (English and Japanese).
 
 I mainly made this to avoid digging through the registry manually every time. Sharing it in case it's useful to others too.
