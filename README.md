@@ -32,3 +32,18 @@ You’re free to use, share, and modify it — just don’t resell it or remove 
 ---
 
 This is something I use personally, so it’s not enterprise-grade — but it works well and is open to feedback or improvement!
+
+## Screenshots
+
+### Light Mode
+![Light Theme](screenshots/MainMenu_Light.png)
+
+### Dark Mode
+![Dark Theme](screenshots/MainMenu_Dark.png)
+
+### Upgrade Tab
+![Upgrade Tab](screenshots/UpgradeBlock.png)
+
+### Registry Tab
+![Registry Tab](screenshots/RegistryOpen.png)
+
